@@ -27,5 +27,6 @@ while confirmador == False:
         print("El número secreto es mayor")
     else:
         print(f"¡Felicidades! Has adivinado el número secreto: {numero}")
+        print("Fin del juego")
         confirmador = True
 

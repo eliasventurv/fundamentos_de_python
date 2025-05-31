@@ -11,6 +11,8 @@ Estado:       [ Terminado ]
 
 numero = input("Ingresa un número: ")
 
+print(f"\nProceso de reducción para {numero}:")
+
 while len(numero) != 1:
     
     aux = 0
@@ -19,7 +21,12 @@ while len(numero) != 1:
         cifra = int(cifra)
         aux = aux + cifra
 
+    print(f"{numero} = {aux}")
+
     numero = str(aux)
 
-print(numero)
+else:
+    print("")
+
+print(f"El resultado final es: {numero}")
 
