@@ -1,3 +1,15 @@
+'''
+Clase:        Fundamentos de programación
+Tema:         Introducción a NumPy
+Ejercicio:    5. Cuestionario de trabajo
+Descripción:  Resolución de Guía de introducción a NumPy
+
+Autor:        Elías Josué Ventura Villatoro
+Fecha:        2025-06-1
+Estado:       [ Terminado ]
+'''
+
+
 import numpy as np
 
 # Definición de la matriz consumo
